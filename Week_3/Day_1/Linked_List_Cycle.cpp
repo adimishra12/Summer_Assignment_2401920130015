@@ -8,7 +8,7 @@
  */
 class Solution {
 public:
-    bool hasCycle(ListNode *head) 
+    bool hasCycle(ListNode *head) {
         if (!head) return false;
 
         ListNode* slow = head;
